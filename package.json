@@ -1,0 +1,20 @@
+{
+  "name": "dmitruk",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitruk Elena",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "concat-with-sourcemaps": "^1.0.4",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-concat-js": "^0.1.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "tvvt-gulp-sourcemaps": "0.0.5"
+  }
+}

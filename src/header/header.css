@@ -1,0 +1,13 @@
+.header {
+	background-color: white;
+	width: 1400px;
+	
+	padding-left: 115px;
+	padding-right: 115px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
+}
+.header img {
+	display: inline-block;	
+}

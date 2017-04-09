@@ -1,0 +1,15 @@
+.buy-button {
+	background-color: #2754eb;
+	border: none;	
+	border-radius: 20px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;		
+	display: inline-block;	
+	color: #ffffff;
+	text-transform: uppercase;	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	text-decoration: none;
+}

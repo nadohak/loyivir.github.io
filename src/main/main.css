@@ -1,0 +1,10 @@
+.main {
+	background-color: #1c1e23;
+	background-image: url(iphone-6.png);
+ 	
+ 	background-position: 900px center;  
+ 	background-repeat: no-repeat;	
+	height: 500px;
+	padding-right: 115px;
+	padding-left: 115px;
+}

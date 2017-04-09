@@ -1,0 +1,13 @@
+.search-form__search-button {
+	background-color: #e4e5e7;
+	border: none;
+	background-image: url(SearchIcon.svg); 
+	background-repeat: no-repeat;
+    background-color: transparent;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    background-position: 0px 0px;
+    padding-left: 16px;    
+    vertical-align: middle;
+}

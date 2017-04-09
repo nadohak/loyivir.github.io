@@ -1,0 +1,11 @@
+.menu-item {	
+	text-transform: uppercase;	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	text-decoration: none;
+	color: #b9bed1;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
