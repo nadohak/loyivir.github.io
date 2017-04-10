@@ -1,0 +1,45 @@
+.header {
+	font-family: "ArvoRegular", arial;
+	font-size: 30px;
+	color: #3b3f6a;
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 55px;
+}
+
+.short-description {
+	font-family: "ArvoRegular", arial;
+	font-size: 20px;
+	color: #3b3f6a;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.long-description {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	color: #8d91a8;
+	text-align: center;
+
+}
+.img-box{
+	text-align: center;
+}
+
+@font-face {
+    font-family: "ArvoRegular";
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot");
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoRegular/ArvoRegular.woff") format("woff"),
+    url("../fonts/ArvoRegular/ArvoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../fonts/NotoSans-Regular.ttf") format("truetype");    
+    font-style: normal;
+    font-weight: normal;
+}
