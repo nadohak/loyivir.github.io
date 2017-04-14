@@ -1,0 +1,246 @@
+/* font-family: "RockwellRegular"; */
+@font-face {
+    font-family: "RockwellRegular";
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),
+    url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RockwellBoldItalic"; */
+@font-face {
+    font-family: "RockwellBoldItalic";
+    src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+    src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"),
+    url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.navreg {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.navsemibold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.navbold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.mainreg {
+    font-family: 'RockwellRegular', sans-serif;    
+}
+.mainbold {
+    font-family: 'RockwellRegular';
+    font-weight: 400;
+}
+.mainitalic {
+    font-family: 'RockwellBoldItalic';
+    font-style: italic;
+}
+.contactbold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+@main-dark: #202242;
+@main-light: #ffe13e;
+@back-color: #ebebeb;
+@main-text: #fff;
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+a {
+   .link;
+    &:hover{
+    .link;
+}
+&:active {
+    .link;
+}
+&:link{
+    .link;
+}
+&:visited{
+    .link;
+}
+}
+
+.header {
+    width: 1400px;
+    min-height: 941px;
+    &-top{
+        width: 1400px;               
+        display: inline;
+        text-align: left;
+        vertical-align: center;
+        &-logo {  
+          line-height: 147px;          
+            &-text {
+                .mainreg;
+                color: @main-dark;
+                font-size: 30px;         
+                text-align: left;                
+            }
+            &-text_bold {
+                .mainbold;
+                color: @main-dark;
+                font-size: 30px;
+            } 
+            &-img{
+                width: 26px;
+                height: 32px; 
+            }
+        }
+        &-menu {
+            font-size: 16px;
+            line-height: 155px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            padding-right:25px;
+            list-style-type: none;
+            display: inline-block;
+            border-right: 1px solid @back-color;
+            &-item {
+                display: inline;
+                text-transform: uppercase;
+                padding-left: 8px;
+                padding-right: 8px;
+                &-text {
+                    .navreg;
+                    color: @main-dark;                    
+                }
+                &-text_active {
+                    .navbold;
+                    color: @main-light;
+                    
+                }
+            }
+                                    
+        }
+        &-contact{            
+            color: @main-dark;
+            text-align: left;
+            margin-top: 35px;
+            &-title {
+                .navsemibold;
+                font-size: 11px;
+                display: inline;
+                line-height: 40px;
+                text-align: center;
+            }
+            &-button {
+                .navsemibold;
+                font-size: 14px;
+                display: inline-block;
+                margin-right: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                background-color: @main-light;
+                text-align: center;
+            }
+            &-number {
+                .contactbold;
+                font-size: 24px;
+                display: inline-block;
+                margin-left: 10px;
+                text-align: center;
+                border-left: 1px solid @back-color; 
+                padding-left: 18px;
+            }
+        }
+    }
+    &-main {
+        text-align: center;
+        display: inline-block;
+        background-image: url(../img/backgound.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        h1 {
+            padding-top: 230px;
+            .mainreg;
+            font-size: 48px;
+            line-height: 24px;
+            color: @main-text;
+            padding-bottom: 15px;
+        }
+        h3 {
+             .navreg;
+            font-size: 30px;
+            line-height: 24px;
+            color: @main-text;
+            padding-bottom: 15px;
+        }
+        &-box {
+            display: inline-block;       
+            margin-top: 15px;
+            margin-bottom: 100px;
+            background-color: darken(@back-color, 10%);
+        }
+        &-shape {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        &-form {
+            display: inline-block;
+            line-height: 50px;
+            margin: 15px;
+            padding: 0px;
+            background-color: @back-color;  
+            vertical-align: top;
+            &-input {
+                background-color: @main-text;
+                border: none;
+                height: 50px;
+                font-size: 18px;                
+                .navreg;
+                color: @main-dark;
+                display: inline;
+                margin-bottom: 0px;
+                margin-top: 0px;
+                padding-bottom: 0px;
+                vertical-align: top;
+            }
+            &-domain {
+                text-transform: uppercase;
+                .navbold;
+                font-size: 18px;
+                background-color: @main-light;
+                color: @main-dark;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                display: inline-block;
+                margin: 0px;
+                height: 50px;
+            }
+            &-button {
+                .navbold;
+                font-size: 14px;
+                background-color: @main-light;
+                color: @back-color;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                display: inline-block;
+                text-align: center;
+                margin: 0px;               
+                border: none;
+                height: 50px;
+                 vertical-align: top;
+            }
+        }
+    }
+}

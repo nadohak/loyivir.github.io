@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "RockwellRegular";
+  src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+  src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix") format("embedded-opentype"),url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "RockwellBoldItalic";
+  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix") format("embedded-opentype"),url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"),url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbold,
+.navreg,
+.navsemibold {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+}
+
+.navbold,
+.navsemibold {
+  font-weight: 600;
+}
+
+.navbold {
+  font-weight: 700;
+}
+
+.mainreg {
+  font-family: 'RockwellRegular',sans-serif;
+}
+
+.mainbold {
+  font-family: 'RockwellRegular';
+  font-weight: 400;
+}
+
+.mainitalic {
+  font-family: 'RockwellBoldItalic';
+  font-style: italic;
+}
+
+.contactbold {
+  font-family: 'Lato',sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  width: 1400px;
+  min-height: 941px;
+}
+
+.header-top {
+  width: 1400px;
+  display: inline;
+  text-align: left;
+  vertical-align: center;
+}
+
+.header-top-logo {
+  line-height: 147px;
+}
+
+.header-top-logo-text {
+  font-family: 'RockwellRegular',sans-serif;
+  color: #202242;
+  font-size: 30px;
+  text-align: left;
+}
+
+.header-top-logo-text_bold {
+  font-family: 'RockwellRegular';
+  font-weight: 400;
+  color: #202242;
+  font-size: 30px;
+}
+
+.header-top-logo-img {
+  width: 26px;
+  height: 32px;
+}
+
+.header-top-menu {
+  font-size: 16px;
+  line-height: 155px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-right: 30px;
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid red;
+}
+
+.header-top-menu-item {
+  display: inline;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-top-menu-item-text {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+  color: #202242;
+}
+
+.header-top-menu-item-text_active {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  color: #ffe13e;
+}

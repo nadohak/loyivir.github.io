@@ -1,0 +1,247 @@
+/* font-family: "RockwellRegular"; */
+@font-face {
+  font-family: "RockwellRegular";
+  src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+  src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"), url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "RockwellBoldItalic"; */
+@font-face {
+  font-family: "RockwellBoldItalic";
+  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"), url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.navreg {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.navsemibold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.navbold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.mainreg {
+  font-family: 'RockwellRegular', sans-serif;
+}
+.mainbold {
+  font-family: 'RockwellRegular';
+  font-weight: 400;
+}
+.mainitalic {
+  font-family: 'RockwellBoldItalic';
+  font-style: italic;
+}
+.contactbold {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  width: 1400px;
+  min-height: 941px;
+}
+.header-top {
+  width: 1400px;
+  display: inline;
+  text-align: left;
+  vertical-align: center;
+}
+.header-top-logo {
+  line-height: 147px;
+}
+.header-top-logo-text {
+  font-family: 'RockwellRegular', sans-serif;
+  color: #202242;
+  font-size: 30px;
+  text-align: left;
+}
+.header-top-logo-text_bold {
+  font-family: 'RockwellRegular';
+  font-weight: 400;
+  color: #202242;
+  font-size: 30px;
+}
+.header-top-logo-img {
+  width: 26px;
+  height: 32px;
+}
+.header-top-menu {
+  font-size: 16px;
+  line-height: 155px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 25px;
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid #ebebeb;
+}
+.header-top-menu-item {
+  display: inline;
+  text-transform: uppercase;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.header-top-menu-item-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #202242;
+}
+.header-top-menu-item-text_active {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffe13e;
+}
+.header-top-contact {
+  color: #202242;
+  text-align: left;
+  margin-top: 35px;
+}
+.header-top-contact-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  display: inline;
+  line-height: 40px;
+  text-align: center;
+}
+.header-top-contact-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #ffe13e;
+  text-align: center;
+}
+.header-top-contact-number {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  border-left: 1px solid #ebebeb;
+  padding-left: 18px;
+}
+.header-main {
+  text-align: center;
+  display: inline-block;
+  background-image: url(../img/backgound.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+.header-main h1 {
+  padding-top: 230px;
+  font-family: 'RockwellRegular', sans-serif;
+  font-size: 48px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+.header-main h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+.header-main-box {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  background-color: #d2d2d2;
+}
+.header-main-shape {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header-main-form {
+  display: inline-block;
+  line-height: 50px;
+  margin: 15px;
+  padding: 0px;
+  background-color: #ebebeb;
+  vertical-align: top;
+}
+.header-main-form-input {
+  background-color: #ffffff;
+  border: none;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #202242;
+  display: inline;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: top;
+}
+.header-main-form-domain {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #ffe13e;
+  color: #202242;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  margin: 0px;
+  height: 50px;
+}
+.header-main-form-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #ffe13e;
+  color: #ebebeb;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  border: none;
+  height: 50px;
+  vertical-align: top;
+}
