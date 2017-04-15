@@ -1,0 +1,448 @@
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+/* gradient */
+body {
+  background-color: #2f3238;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #fff;
+}
+h4 {
+  text-align: center;
+  line-height: 24px;
+  font-size: 22px;
+  font-family: "Raleway";
+  color: #fff;
+  margin-bottom: 50px;
+}
+.button {
+  border: 1px solid  #fff;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+}
+.effect-oscar {
+  background: url(../img/1.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  width: 480px;
+  height: 360px;
+}
+.effect-oscar .effect-box {
+  text-align: center;
+  background: -webkit-linear-gradient(bottom left, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: -o-linear-gradient(bottom left, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(to top right, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  width: 480px;
+  height: 360px;
+  opacity: 0;
+}
+.effect-oscar-desc {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.effect-oscar-button {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  border: 1px solid  #fff;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+}
+.effect-oscar-figcaption {
+  padding: 3em;
+  background-color: rgba(58, 52, 42, 0.7);
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.effect-oscar-header {
+  opacity: 1;
+  margin: 20% 0 10px 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.effect-oscar:hover .effect-box {
+  opacity: 0.5;
+}
+.effect-oscar:hover .effect-oscar-figcaption {
+  background-color: rgba(58, 52, 42, 0);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-oscar:hover .effect-oscar-desc {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-oscar:hover .effect-oscar-header {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.effect-ruby {
+  background: url(../img/2.jpg) no-repeat center center;
+  background-size: 125% auto;
+  background-color: #17819c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 480px;
+  height: 360px;
+  position: relative;
+  opacity: 1;
+  margin-bottom: 50px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: background-size 0.35s;
+  transition: background-size 0.35s;
+}
+.effect-ruby .effect-box {
+  text-align: center;
+  width: 480px;
+  height: 360px;
+  opacity: 0;
+}
+.effect-ruby-desc {
+  margin: 1em 1em 1em;
+  padding: 3em;
+  border: 1px solid #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.effect-ruby-button {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  border: 1px solid  #fff;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+}
+.effect-ruby-header {
+  margin-top: 20%;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.effect-ruby:hover {
+  opacity: 1;
+  background-size: 100% auto;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: background-size 0.35s;
+  transition: background-size 0.35s;
+}
+.effect-ruby:hover .effect-box {
+  opacity: 1;
+}
+.effect-ruby:hover .effect-ruby-desc {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.effect-ruby:hover .effect-ruby-header {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.effect-chico {
+  background: url(../img/3.jpg) no-repeat center center;
+  background-size: 125% auto;
+  background-color: #17819c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 480px;
+  height: 360px;
+  position: relative;
+  opacity: 1;
+  margin-bottom: 50px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: background-size 0.35s;
+  transition: background-size 0.35s;
+}
+.effect-chico .effect-box {
+  text-align: center;
+  width: 480px;
+  height: 360px;
+  opacity: 0;
+}
+.effect-chico-figcaption {
+  padding: 3em;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+}
+.effect-chico-desc {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  margin: 0 auto;
+  max-width: 200px;
+}
+.effect-chico-button {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  border: 1px solid  #fff;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+}
+.effect-chico-header {
+  padding: 20% 0 20px 0;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.effect-chico:hover {
+  opacity: 1;
+  background-size: 100% auto;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transition: background-size 0.35s;
+  transition: background-size 0.35s;
+}
+.effect-chico:hover .effect-box {
+  opacity: 1;
+}
+.effect-chico:hover .effect-chico-desc {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-chico:hover .effect-chico-header {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.effect-chico:hover .effect-chico-figcaption {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-bubba {
+  background: url(../img/4.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #9e5406;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 480px;
+  height: 360px;
+  position: relative;
+  opacity: 0.7;
+  margin-bottom: 50px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.effect-bubba .effect-box {
+  text-align: center;
+  width: 480px;
+  height: 360px;
+  opacity: 0;
+}
+.effect-bubba-desc {
+  padding: 20px 2.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.effect-bubba-button {
+  border: 1px solid  #fff;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+}
+.effect-bubba-header {
+  padding-top: 30%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+}
+.effect-bubba-figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+}
+.effect-bubba-figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -webkit-transition: transform 0.35s;
+  transition: transform 0.35s;
+}
+.effect-bubba:hover {
+  opacity: 0.4;
+}
+.effect-bubba:hover .effect-box {
+  opacity: 1;
+}
+.effect-bubba:hover .effect-bubba-desc {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.effect-bubba:hover .effect-bubba-figcaption::before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-bubba:hover .effect-bubba-figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.effect-bubba:hover .effect-bubba-header {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
