@@ -30,18 +30,20 @@
   background: rgba(0, 0, 0, 0.6);
   z-index: 77777;
   opacity: 0;
+  display: none;
   pointer-events: none;
-  -webkit-transition: opacity 0.15s;
-          transition: opacity 0.15s;
+  -webkit-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
 }
 .overlay:target {
   opacity: 1;
-
+  display: block;
   pointer-events: auto;
 
 }
 .overlay:target + .modalDialog {
   opacity: 1;
+  display: block;
 }
 .modalDialog {
   width: 400px;
@@ -58,10 +60,11 @@
   background: -webkit-linear-gradient(#ffffff, #999999);
   background: linear-gradient(#ffffff, #999999);
   opacity: 0;
+  display: none;
   z-index: 88888;
   text-align: center;
-  -webkit-transition: opacity 0.15s ease-in;
-          transition: opacity 0.15s ease-in;
+  -webkit-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
 }
 .close {
   background: #606061;
