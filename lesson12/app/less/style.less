@@ -31,19 +31,20 @@
     background: rgba(0,0,0,0.6);
     z-index: 77777;  
     opacity: 0;
-    display: none;
+    
     pointer-events: none;
     transition: opacity 0.15s linear;
     
     &:target {
         & + .modalDialog {
              opacity: 1;
-	     display: block;
+	     
+             z-index: 77777;
             
              
         }
     opacity: 1;
-    display: block;
+    
     pointer-events: auto;
      
     }
@@ -65,8 +66,8 @@
     background: #fff;   
     background: linear-gradient(#fff, #999);   
     opacity: 0;
-    display: none;
-    z-index: 88888;
+   
+    z-index: 0;
     text-align: center;
 
     transition: opacity 0.15s linear;
