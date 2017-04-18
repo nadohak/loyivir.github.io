@@ -36,7 +36,9 @@
 }
 .overlay:target {
   opacity: 1;
+
   pointer-events: auto;
+
 }
 .overlay:target + .modalDialog {
   opacity: 1;
