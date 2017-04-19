@@ -1,19 +1,22 @@
 /* font-family: "RockwellRegular"; */
 @font-face {
-  font-family: "RockwellRegular";
-  src: url("../fonts/RockwellRegular/RockwellRegular.eot");
-  src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"), url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+    font-family: "Rockwell";
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),
+    url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+    
 }
-/* font-family: "RockwellBoldItalic"; */
+/* font-family: "Rockwell"; */
 @font-face {
-  font-family: "RockwellBoldItalic";
-  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
-  src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"), url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+    font-family: "Rockwell";
+    src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot");
+    src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"),
+    url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+  
 }
+
 .navreg {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -27,15 +30,16 @@
   font-weight: 700;
 }
 .mainreg {
-  font-family: 'RockwellRegular', sans-serif;
+  font-family: 'Rockwell', sans-serif;
 }
 .mainbold {
-  font-family: 'RockwellRegular';
+  font-family: 'Rockwell';
   font-weight: 400;
 }
 .mainitalic {
-  font-family: 'RockwellBoldItalic';
+  font-family: 'Rockwell';
   font-style: italic;
+font-weight: 700;
 }
 .contactbold {
   font-family: 'Lato', sans-serif;
@@ -79,13 +83,14 @@ a:visited {
   line-height: 147px;
 }
 .header-top-logo-text {
-  font-family: 'RockwellRegular', sans-serif;
+  font-family: 'Rockwell', sans-serif;
   color: #202242;
   font-size: 30px;
   text-align: left;
+  font-weight: 400;
 }
 .header-top-logo-text_bold {
-  font-family: 'RockwellRegular';
+  font-family: 'Rockwell';
   font-weight: 400;
   color: #202242;
   font-size: 30px;
@@ -167,11 +172,12 @@ a:visited {
 }
 .header-main h1 {
   padding-top: 230px;
-  font-family: 'RockwellRegular', sans-serif;
+  font-family: 'Rockwell', sans-serif;
   font-size: 48px;
   line-height: 24px;
   color: #ffffff;
   padding-bottom: 15px;
+  font-weight: 400;
 }
 .header-main h3 {
   font-family: 'Raleway', sans-serif;
@@ -222,7 +228,7 @@ a:visited {
   color: #202242;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 0px;
+  padding-top: 12px;
   padding-bottom: 0px;
   display: inline-block;
   margin: 0px;
