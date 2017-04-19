@@ -5,7 +5,8 @@
     src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix")format("embedded-opentype"),
     url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),
     url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
-    
+    font-weight: 400;
+    font-style: normal;
 }
 /* font-family: "Rockwell"; */
 @font-face {
@@ -14,6 +15,8 @@
     src: url("../fonts/RockwellBoldItalic/RockwellBoldItalic.eot?#iefix")format("embedded-opentype"),
     url("../fonts/RockwellBoldItalic/RockwellBoldItalic.woff") format("woff"),
     url("../fonts/RockwellBoldItalic/RockwellBoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
   
 }
 
