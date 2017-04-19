@@ -1,0 +1,66 @@
+.text,
+body {
+  font-family: 'Bad Script',cursive;
+  font-size: 72px;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.item,
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider,
+body {
+  padding: 0;
+}
+
+.item {
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+  height: 100vh;
+  flex-basis: 25%;
+  background-color: #aeaeae;
+  transition: all .2s;
+}
+
+.item:hover {
+  flex-basis: 100%;
+}
+
+.item span {
+  font-size: 3rem;
+  text-shadow: 0 0 10px #000;
+}
+
+.item-1 {
+  background: url("../img/1.png") no-repeat center center;
+  background-size: cover;
+}
+
+.item-2 {
+  background: url("../img/2.png") no-repeat center center;
+}
+
+.item-2,
+.item-3,
+.item-4 {
+  background-size: cover;
+}
+
+.item-3 {
+  background: url("../img/3.png") no-repeat center center;
+}
+
+.item-4 {
+  background: url("../img/4.png") no-repeat center center;
+}
