@@ -1,0 +1,117 @@
+section {
+  padding: 20px 100px;
+  min-height: 100vh;
+}
+.menu {
+  opacity: 0.95;
+  background-color: purple;
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: -100vw;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+.menu-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+}
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+  display: block;
+  height: 2px;
+  width: 18px;
+  background-color: #333;
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+  top: 50%;
+  margin-top: -1px;
+}
+.menu-link span:before {
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  content: '';
+  margin-top: -6px;
+}
+.menu-link span:after {
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  content: '';
+  margin-top: 4px;
+}
+.menu-link_active span {
+  height: 0px;
+  background-color: transparent;
+}
+.menu-link_active span:before {
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+  margin-top: 0;
+}
+.menu-link_active span:after {
+  -webkit-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  margin-top: 0;
+}
+.menu_active {
+  left: 0;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu ul li {
+  width: 30vw;
+}
+.menu ul a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: #fff;
+  line-height: 4;
+  font-weight: 100;
+  letter-spacing: 5px;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+}
+.menu ul a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: purple;
+}
