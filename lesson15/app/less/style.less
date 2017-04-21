@@ -240,7 +240,7 @@ body {
 		margin: 0px auto;
 		text-align: center;
 		display: block;
-		width: 100px;
+		max-width: 100px;
 		&-img {
 			margin: 2rem auto;
 			width: 60px;
@@ -257,7 +257,7 @@ body {
 		&-desc {
 			margin-top: 1rem;
 			color:  #333333;
-			font-size: 1.25;
+			font-size: 1.25rem;
 			font-weight: 300;
 			line-height: 1.9rem;
 			text-align: center;
@@ -265,6 +265,14 @@ body {
 	}
 }
 @media (max-width: 450px) {
+	.tasks {
+			&-box {
+		&-desc {
+			font-size: 1rem;
+			
+		}
+	}
+	}
 .main {
 	&-top-img {
 		transform: translate(50%,-50%);	
@@ -282,10 +290,21 @@ html {
 }
 }
 @media (max-width: 768px) {
+.tasks {
+			&-box {
+		&-desc {
+			font-size: 1rem;
+			
+		}
+	}
+	}
 .main {
 	&-auto, order {
 		margin: 0px auto;
 		text-align: center;
+	}
+	&-top-img{
+		display: none;
 	}
 }	
 html {
@@ -309,6 +328,14 @@ html {
 }
 
 @media (max-width: 320px) {
+	.tasks {
+		&-box {
+		&-desc {
+			font-size: 1rem;
+			
+		}
+	}
+	}
 .main {
 	&-auto, order {
 		margin: 0px auto;
@@ -320,6 +347,9 @@ html {
 	&-header {
 		font-size: 1.8rem;
 	}
+	&-top-img{
+	display: none;
+}
 }	
 html {
 	font-size: 8px;
