@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'P22UndergroundCYPro';
+  src: url("../fonts/P22UndergroundCYPro-Book.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYPro';
+  src: url("../fonts/P22UndergroundCYPro-Heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYPro';
+  src: url("../fonts/P22UndergroundCYPro-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYPro';
+  src: url("../fonts/P22UndergroundCYPro-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: 'P22UndergroundCYPro';
+  font-size: 12px;
+}
+
+.main {
+  background: url("../img/main/back.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.main-auto {
+  margin-top: 2rem;
+  display: inline-block;
+  height: 100px;
+}
+
+.main-auto-img {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+}
+
+.main-auto-box {
+  display: inline-block;
+  padding-top: 3rem;
+}
+
+.main-auto-box-header {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.4rem;
+  text-align: left;
+}
+
+.main-auto-box-desc,
+.main-results ul {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.3rem;
+  text-align: left;
+}
+
+.main-order {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.main-order-btn {
+  font-family: 'P22UndergroundCYPro';
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 2.7rem;
+  text-align: center;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 2rem;
+}
+
+.main-header,
+.main-order-phone {
+  font-family: 'P22UndergroundCYPro';
+  font-weight: 800;
+}
+
+.main-order-phone {
+  display: inline-block;
+  padding-top: .3rem;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: right;
+}
+
+.main-header {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-top: 4rem;
+  text-align: center;
+  color: #ff3;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.main-results {
+  vertical-align: center;
+  text-align: left;
+}
+
+.main-results ul {
+  list-style: none;
+  font-family: 'P22UndergroundCYPro';
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.main-consult {
+  display: block;
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 4rem;
+}
+
+.main-consult-form {
+  text-align: center;
+}
+
+.main-consult-form-input {
+  display: inline-block;
+}
+
+.main-consult-form-input-img {
+  background-color: #999;
+  display: inline-block;
+  text-align: center center;
+  height: 4rem;
+  width: 4rem;
+  min-width: 11px;
+  min-height: 11px;
+}
+
+.main-consult-form-input-img img {
+  width: 10px;
+}
+
+.main-consult-form-input-field {
+  font-family: 'P22UndergroundCYPro';
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 4rem;
+  text-align: left;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.main-consult-header {
+  font-family: 'P22UndergroundCYPro';
+  color: #333;
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 2rem;
+  text-align: center;
+  padding: 4rem;
+  margin-bottom: 2rem;
+}
