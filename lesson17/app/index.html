@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Accordeon demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+      <div class="header1">
+        Ответы на вопросы
+      </div>
+            <div class="header2"> которые нам задают чаще всего</div>
+    </div>
+      <div class="row">
+       <div class="accord-container">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+         
+            <div class="accord-tab accord-tab-1" data-target="accord-tab-content-1">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+            </div>
+            <div class="accord-tab-content accord-tab-content-1 show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro quos dolorem vitae, maxime expedita aspernatur tempore illo! Vel non, sit optio id porro, quaerat ab officia quis modi nam?
+            </div>
+            
+            <div class="accord-tab accord-tab-2" data-target="accord-tab-content-2">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+             </div>
+             <div class="accord-tab-content accord-tab-content-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro quos dolorem vitae, maxime expedita aspernatur tempore illo! Vel non, sit optio id porro, quaerat ab officia quis modi nam?
+            </div>
+           
+            <div class="accord-tab accord-tab-3" data-target="accord-tab-content-3">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+            </div>
+             <div class="accord-tab-content accord-tab-content-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro quos dolorem vitae, maxime expedita aspernatur tempore illo! Vel non, sit optio id porro, quaerat ab officia quis modi nam?
+            </div>
+            
+            <div class="accord-tab accord-tab-4" data-target="accord-tab-content-4">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+            </div>
+             <div class="accord-tab-content accord-tab-content-4 ">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro quos dolorem vitae, maxime expedita aspernatur tempore illo! Vel non, sit optio id porro, quaerat ab officia quis modi nam?
+            </div>
+            
+            <div class="accord-tab accord-tab-5" data-target="accord-tab-content-5">Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+            </div>
+             <div class="accord-tab-content accord-tab-content-5 ">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro quos dolorem vitae, maxime expedita aspernatur tempore illo! Vel non, sit optio id porro, quaerat ab officia quis modi nam?
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script type="text/javascript">
+     $(document).ready(function(){
+        var tab = $('.accord-tab');
+        var tabContent = $('.accord-tab-content');
+        tab.click(function(){
+          var content = $(this).attr('data-target');
+        
+          console.log(content);
+          $('.' + content).slideToggle(70, function(){
+            $('.' + content).toggleClass('show');
+          });
+        });
+     });
+   </script>
+
+  </body>
+</html>
