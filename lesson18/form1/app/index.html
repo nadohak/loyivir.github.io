@@ -74,15 +74,18 @@
               rules: {
                name: {
                   required: true,
-                  minlength: 2
+                  minlength: 2,
+                  maxlength: 30
                 },
                 password: {
                   required: true,
-                  minlength: 6
+                  minlength: 6,
+                  maxlength: 30
                 },
                 email: {
                   required: true,
-                  email: true
+                  email: true,
+                  maxlength: 30
                   },
                   submitHandler: function(form) {
                   // do other things for a valid form
