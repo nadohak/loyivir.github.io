@@ -49,6 +49,9 @@ h4 {
 .button:hover {
   opacity: 1;
 }
+.button:focus {
+  outline: none;
+}
 .block-width {
   width: 480px;
   height: 360px;
@@ -196,6 +199,9 @@ h4 {
 .dialog-close:hover {
   opacity: 1;
 }
+.dialog-close:focus {
+  outline: none;
+}
 .form {
   text-align: center;
 }
@@ -236,6 +242,9 @@ h4 {
 }
 .form-button:hover {
   opacity: 1;
+}
+.form-button:focus {
+  outline: none;
 }
 .form-button-holder {
   display: block;
