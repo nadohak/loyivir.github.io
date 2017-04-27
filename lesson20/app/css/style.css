@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'et-line';
+  src: url('../fonts/et-line.eot');
+  src: url('../fonts/et-line.eot?#iefix') format('embedded-opentype'), url('../fonts/et-line.woff') format('woff'), url('../fonts/et-line.ttf') format('truetype'), url('../fonts/et-line.svg#et-line') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #19bc9b;
+  text-decoration: none;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: block;
+}
+.main-title {
+  margin-bottom: 20%;
+}
+.main-title h1 {
+  font-family: 'Ubuntu';
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: center;
+}
+.main-title h2 {
+  font-family: 'Ubuntu';
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 67px;
+  text-align: center;
+}
+.main-title h3 {
+  font-family: 'Ubuntu';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-form {
+  display: inline-block;
+  margin-bottom: 50px;
+  padding: 0;
+  text-align: top;
+}
+.main-form-input {
+  display: inline;
+  font-family: 'Ubuntu';
+  color: #929292;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  margin: 0;
+}
+.main-form-button {
+  display: inline-block;
+  background-color: #1abc9c;
+  width: 160px;
+  height: 50px;
+  font-family: 'Ubuntu';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  margin: 0;
+}
+.main-desc {
+  font-family: 'Ubuntu';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.what-we-do {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.what-we-do-header {
+  margin: 50px;
+}
+.what-we-do-header-icon {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #4c4c4c;
+  font-size: 63px;
+  line-height: 27px;
+  text-align: center;
+}
+.what-we-do-header h3 {
+  font-family: 'Ubuntu';
+  color: #a5a5a5;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.what-we-do-header h1 {
+  font-family: 'Ubuntu';
+  color: #4c4c4c;
+  font-size: 61px;
+  font-weight: 300;
+  line-height: 61px;
+  text-align: center;
+}
+.what-we-do-block {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.what-we-do-block-icon {
+  display: block;
+  margin: 20px;
+  font-size: 69px;
+  line-height: 27px;
+  text-align: center;
+}
+.what-we-do-block-icon-1 {
+  color: #4796b7;
+}
+.what-we-do-block-icon-2 {
+  color: #9f5cd8;
+}
+.what-we-do-block-icon-3 {
+  color: #f1438a;
+}
+.what-we-do-block-title {
+  font-family: 'Ubuntu';
+  color: #4c4c4c;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: center;
+}
+.what-we-do-block-desc {
+  font-family: 'Ubuntu';
+  color: #939598;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  display: block;
+}
+.menu {
+  display: inline-block;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
+.menu-img {
+  display: block;
+  text-align: center;
+}
+.menu-items {
+  display: inline-block;
+}
+.menu-items li {
+  display: inline;
+}
+.menu-items li a {
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  color: #a69999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.menu-items li a:hover {
+  text-decoration: none;
+}
+.menu-social {
+  display: block;
+  font-size: 27px;
+  line-height: 27px;
+  text-align: center;
+}
+.menu-social-1 {
+  color: #3b5998;
+}
+.menu-social-2 {
+  color: #00aced;
+}
