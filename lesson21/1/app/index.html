@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Parallax</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Ubuntu:300,300i,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+	    <div class="top">
+	    	<div class="row">
+	    		<div class="col-md-2">
+	    			<div class="top-logo">
+	    				<img src="img/top/logo.png" class="top-logo-img">    					
+	    			</div>
+	    		</div>
+	    		<div class="col-md-5 col-md-offset-5">
+		    		<div class="top-menu">
+		    			<ul class="top-menu-items">
+		    				<li><a href="#">How it works</a></li>
+		    				<li><a href="#">About Us</a></li>
+		    				<li><a href="#">Contact Us</a></li>
+		    				<li><a href="#">Blog</a></li>
+		    			</ul>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div><!-- top -->
+		 
+	    		 	
+	   
+		<ul id="scene" class="main"
+			data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15">
+			<li class="layer" data-depth="0.00"></li>
+			<li class="layer" data-depth="0.20"><div class="left-top"></div></li>
+			<li class="layer" data-depth="0.05"><div class="left-bottom"></div></li>
+			<li class="layer" data-depth="0.30"><div class="right-top"></div></li>
+			<li class="layer" data-depth="0.40"><div class="right-bottom"></div></li>
+			<li class="layer" data-depth="0.00">
+
+
+				<div class="row">
+					<div class="col-md-6">
+	    				<div class="main-header">
+	    				<h1>Track your next
+fuel shops</h1>
+	    				<h3>Monitor and Alert on all petrol bunks near to you</h3>
+	    			</div>
+	    			<div class="main-form-title">Signup For <span>FREE</span></div>
+	    			<form class="main-form" action="">
+	    				<input type="text" class="main-form-input" placeholder="Your E-mail  Adress"></input>
+	    				<button class="main-form-button">SIGNUP</button>
+	    			</form>
+	    		</div>
+	    		<div class="col-md-6 main-img">
+	    			<img  src="img/main/hand.png" alt="">
+	    		</div>
+	    	</div>
+
+			</li>			
+		</ul>
+	    		
+	    	
+	   <!-- main -->
+	    <div class="footer">
+	    	<div class="row">
+	    		<div class="col-md-2 col-md-offset-1" id="scene" >	    
+	    			<div class="footer-img" >	    			
+	    				<img src="img/bottom/1.png"> 
+	    			</div>
+	    		</div>
+	    		<div class="col-md-2">	    			
+	    				<div  class="footer-img">
+	    				<img src="img/bottom/2.png"> 
+	    			</div>
+	    		</div>
+	    		<div class="col-md-2">	    			
+	    				<div  class="footer-img">
+	    				<img src="img/bottom/3.png">
+	    				</div>
+	    		</div>
+	    		<div class="col-md-2">	    			
+	    				<div  class="footer-img">
+	    				<img src="img/bottom/4.png"> 
+	    				</div>
+	    		</div>
+	    		<div class="col-md-2">	    			
+	    				<div  class="footer-img">
+	    				<img src="img/bottom/5.png">
+	    				</div>
+	    		</div>
+	    		
+	    	</div>
+	    </div><!-- top -->
+    </div><!-- container -->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$('#scene').parallax();
+			
+			
+		});
+	</script>
+  </body>
+</html>

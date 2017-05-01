@@ -1,0 +1,198 @@
+.family {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.top {
+  display: block;
+  width: 100%;
+  background: url('../img/top/back.jpg') no-repeat center center;
+  background-size: cover;
+}
+.top-logo {
+  display: inline-block;
+  margin-left: 20px;
+}
+.top-logo-text {
+  display: inline;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.top-header {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.top-menu {
+  display: block;
+  text-align: center;
+}
+.top-menu ul {
+  display: inline-block;
+}
+.top-menu ul li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-menu ul li_active {
+  border-bottom: solid 3px;
+  border-bottom-color: #1bf1ad;
+}
+.top-menu ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.top-menu ul li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+}
+.main {
+  margin-bottom: 100px;
+}
+.main-header {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.main-header-desc {
+  color: #666666;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.main-ideology-left-col {
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  padding: 0;
+}
+.main-ideology-right-col {
+  display: block;
+  width: 50vw;
+  height: 30vw;
+  padding: 0;
+  text-align: left;
+}
+.main-ideology-label-left {
+  position: absolute;
+  display: block;
+  color: #303030;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: left;
+  width: 17vw;
+  height: 17vw;
+  right: 0;
+  bottom: 0;
+}
+.main-ideology-label-right {
+  position: absolute;
+  display: block;
+  color: #303030;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.main-ideology-label-right_accent {
+  color: #e98457;
+}
+.main-ideology-box {
+  text-align: center;
+}
+.main-ideology-box-left {
+  position: absolute;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: #1bf1ad;
+  width: 25vw;
+  height: 25vw;
+  top: 0;
+  left: 0;
+}
+.main-ideology-box-board {
+  position: absolute;
+  display: block;
+  width: 30vw;
+  height: 21vw;
+  opacity: 0.7;
+  left: 0;
+  bottom: 0;
+}
+.main-ideology-box-board img {
+  width: inherit;
+}
+.main-ideology-box-plus {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 45%;
+  color: #e0e0e0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+.main-ideology-artifacts-plus {
+  position: absolute;
+  display: block;
+  top: 50vh;
+  left: 10vw;
+  z-index: 10;
+}
+.main-ideology-artifacts-circle-small {
+  position: absolute;
+  display: block;
+  left: 30vw;
+  top: 7vh;
+  z-index: 10;
+}
+.main-ideology-artifacts-circle-large {
+  position: absolute;
+  display: block;
+  left: 10vw;
+  z-index: -1;
+}
+.slider-artifact {
+  position: absolute;
+  display: block;
+  left: 5vw;
+  top: 15vh;
+  z-index: 2;
+}
+.slider-header {
+  color: #000000;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 500px;
+}

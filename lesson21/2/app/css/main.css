@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"),url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"),url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"),url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"),url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  opacity: .8;
+}
+
+a:active,
+a:hover,
+a:visited {
+  opacity: 1;
+}
+
+a:active,
+a:visited {
+  opacity: .8;
+}
+
+.footer,
+.promo-style {
+  font-family: 'SegoeUI';
+  color: #fff;
+  display: block;
+}
+
+.footer {
+  z-index: 9;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  position: fixed;
+}
+
+.promo-style {
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  top: 50%;
+  line-height: 200px;
+  height: 100vh;
+  position: absolute;
+}
+
+.bg-box {
+  minheight: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: 0 0;
+  text-align: center;
+}
+
+.logo,
+.menu {
+  position: fixed;
+  top: 10px;
+  z-index: 10;
+}
+
+.logo {
+  display: block;
+  left: 10px;
+}
+
+.menu {
+  right: 10px;
+  font-family: 'MyriadPro';
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.menu ul {
+  display: inline-block;
+}
+
+.menu ul li {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline;
+}
+
+.promo-text-center,
+.promo-text-left,
+.promo-text-right {
+  opacity: 1;
+  font-family: 'SegoeUI';
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  top: 50%;
+  display: block;
+  line-height: 200px;
+  height: 100vh;
+  position: absolute;
+}
+
+.promo-text-left,
+.promo-text-right {
+  opacity: .8;
+  transform: translate(-50%);
+}
+
+.promo-text-right {
+  transform: translate(50%);
+}
+
+.contact,
+.copyright {
+  font-family: 'SegoeUI';
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  position: fixed;
+  z-index: 9;
+  bottom: 10px;
+}
+
+.copyright {
+  display: block;
+  left: 10px;
+}
+
+.contact {
+  right: 10px;
+}
+
+.contact,
+.item,
+.nav {
+  display: block;
+}
+
+.nav {
+  font-family: 'SegoeUI';
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  cursor: pointer;
+  opacity: .7;
+  z-index: 100;
+}
+
+.nav:hover {
+  opacity: 1;
+}
+
+.item {
+  min-height: 100vh;
+}
+
+.carousel-inner,
+.fill,
+body,
+html {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#myCarousel {
+  display: block;
+  height: 100vh;
+}
