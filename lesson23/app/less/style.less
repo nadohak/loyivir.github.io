@@ -1,0 +1,174 @@
+
+@font-face {
+	font-family: 'Lato';
+	src:url('../fonts/Lato-Heavy.eot');
+	src:url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Heavy.woff') format('woff'),
+		url('../fonts/Lato-Heavy.ttf') format('truetype'),
+		url('../fonts/Lato-Heavy.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src:url('../fonts/Lato-MediumItalic.eot');
+	src:url('../fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-MediumItalic.woff') format('woff'),
+		url('../fonts/Lato-MediumItalic.ttf') format('truetype'),
+		url('../fonts/Lato-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'ChunkFive';
+	src: url("../fonts/ChunkFive.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	overflow: auto;
+}
+
+.input-style {
+		margin: 10px;
+		font-family: 'Lato';
+		color: #b9b9b9;
+		font-size: 14px;
+		font-weight: 500;
+		font-style: italic;
+		
+		text-align: left;
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #c7c7c7;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		display: inline;
+	}
+	.map-container {
+		display: block;
+		width: 100%;
+		height: 58vh;
+		min-height: 500px;
+	
+	}
+.form {
+	text-align: center;	
+	padding: 30px auto;
+
+	&-container {
+		&-right {	
+			position: absolute;
+			background-color: #4d59a1;			
+			padding: 10px;
+			text-align: center;
+
+			display: block;
+			min-width: 300px;
+			min-height: 450px;
+			width: 40%;
+			height: 50vh;
+			right: 4vw;
+			top: 4vh;
+			bottom: 4vh;			
+			z-index: 999;
+			h1 {				
+				font-family: 'ChunkFive';
+				color:  #ffffff;
+				font-size: 67px;
+				font-weight: 400;
+				line-height: 70px;
+				text-align: center;
+			}
+			
+		}
+	}
+	
+	&-input {
+		.input-style;		
+		line-height: 50px;	
+		
+		&_textarea {
+			line-height: 18px;
+			overflow: hidden;
+			.input-style;			
+		}
+		
+
+	}
+	&-email-holder {
+		height: 50px;
+		padding: 0;
+		margin: 10px auto;
+		display: block;
+		width: 80%;
+	}
+	&-complex-holder {
+		height: 50px;
+		padding: 0;
+		margin: 10px auto;
+
+		display: inline-block;
+		width: 80%;
+		text-align: center;	
+	}
+	&-inner-holder {
+		
+		&_left {
+			display: inline-block;
+			width: 49%;
+			height: 100%;
+			text-align: left;
+			padding-right: 10px;		
+		}
+		&_right {
+			display: inline-block;
+			width: 49%;
+			height: 100%;
+			text-align: right;
+			padding-left: 10px;		
+		}
+	}
+	&-message-holder {
+		height: 100px;
+		padding: 0;
+		margin: 10px auto;
+		display: block;
+		width: 80%;
+	}
+	&-button {
+	
+		background-color: #c3f37f;
+		width: 40%;
+		height: 50px;
+		font-family: 'Lato';
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 800;
+		line-height: 28px;
+		text-align: center;
+		text-transform: uppercase;
+		border: none;
+		border-radius: 48px;
+		margin: 15px auto;
+		&-holder {
+			display: block;
+			text-align: center;
+		}
+
+	}
+}
+
+
+@media (min-height: 900px) {
+	body {
+		height: 100vh;
+	}
+}
+.error {
+	color: red;
+}

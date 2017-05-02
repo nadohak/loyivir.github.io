@@ -154,12 +154,12 @@ body {
   left: 0;
   right: 0;
   top: 45%;
+  z-index: -2;
   color: #e0e0e0;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   text-align: center;
-  z-index: -2;
 }
 .main-ideology-artifacts-plus {
   position: absolute;
