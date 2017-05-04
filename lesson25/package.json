@@ -1,0 +1,23 @@
+{
+  "name": "dmitruk",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitruk Elena",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",     
+    "gulp": "^3.9.1",    
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",   
+    "gulp-less": "^3.3.0",
+    "gulp-minify": "0.0.15",   
+    "gulp-rename": "^1.2.2"    
+  }
+}
