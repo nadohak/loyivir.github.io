@@ -1,0 +1,13 @@
+CACHE MANIFEST
+css/bootstrap.min.css
+css/font-awesome.min.css
+css/style.min.css
+fonts/et-line.woff
+img/menu-etc.png
+img/menu-logo.jpg
+js/jquery.vide.min.js
+js/lte-ie7.min.js
+video/ocean.gif
+video/ocean.jpeg
+video/ocean.jpg
+video/ocean.png
