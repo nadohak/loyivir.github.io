@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'BlissPro';
+  src: url("../fonts/blisspro-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BlissPro';
+  src: url("../fonts/blisspro-extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BlissPro';
+  src: url("../fonts/blisspro-heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BlissPro';
+  src: url("../fonts/blisspro-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: 'BlissPro';
+  font-style: normal;
+  text-align: center;
+  background-color: #5dd0ba;
+}
+.cell-display {
+  display: table-cell;
+}
+.table-view {
+  display: table;
+}
+.full-height-view {
+  height: 100%;
+}
+.main {
+  display: block;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 50.74px 8.26px rgba(118, 118, 118, 0.35);
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  min-width: 80%;
+  min-height: 80vh;
+}
+.card-close {
+  display: block;
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  z-index: 19;
+}
+.card-close span,
+.card-close span:before,
+.card-close span:after {
+  display: block;
+  height: 1px;
+  width: 50px;
+  background-color: #333;
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+  top: 50%;
+  margin-top: -1px;
+}
+.card-close span {
+  height: 0px;
+  background-color: transparent;
+}
+.card-close span:before {
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  content: '';
+  margin-top: -6px;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+  margin-top: 0;
+}
+.card-close span:after {
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  content: '';
+  margin-top: 4px;
+  -webkit-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  margin-top: 0;
+}
+.position {
+  display: block;
+  width: 100%;
+}
+.position-img {
+  text-align: center;
+  display: block;
+  padding: 50px;
+  width: 100%;
+}
+.position-img img {
+  width: inherit;
+  padding: 50px;
+  margin: auto 50px;
+}
+.description {
+  display: block;
+  width: 80%;
+  margin: 10% auto;
+  text-align: left;
+  font-family: 'BlissPro';
+}
+.description-header-name {
+  color: #333333;
+  font-size: 38px;
+  font-weight: 500;
+}
+.description-header-amount {
+  color: #5c5c5c;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.description-price {
+  display: inline-block;
+  text-align: justify;
+  width: 100%;
+}
+.description-price-number {
+  display: inline-block;
+  width: 60%;
+  color: #e0a913;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: left;
+}
+.description-price-rating {
+  display: inline-block;
+  color: #f6bf2e;
+  font-size: 18px;
+  line-height: 30px;
+  width: 38%;
+}
+.description-price-rating-num {
+  color: #f6bf2e;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+.description-about {
+  color: #5c5c5c;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+}
