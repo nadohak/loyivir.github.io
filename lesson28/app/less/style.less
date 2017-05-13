@@ -28,7 +28,13 @@ body {
 	font-family: 'BlissPro';
 	font-style: normal;
 	text-align: center;	
-	background-color: rgb(93, 208, 186);
+	//background-color: rgb(93, 208, 186);
+	background: url("../img/back.gif") no-repeat center center;
+	background-size: cover;	
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
 	
 }
 a {
@@ -235,5 +241,12 @@ height: 100%;
 
 }
 .modalButton {
-	margin-top: 50vh;
+	padding-top: 50vh;
+}
+input[type='submit'] {
+	
+	&:hover, &:active, &:visited, &:link {
+		
+		border: none;
+	}
 }

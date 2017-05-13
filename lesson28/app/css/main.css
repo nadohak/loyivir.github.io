@@ -26,11 +26,19 @@
   font-style: normal;
 }
 
+.main,
+body {
+  display: block;
+}
+
 body {
   font-family: 'BlissPro';
   font-style: normal;
+  background: url("../img/back.gif") no-repeat center center;
+  background-size: cover;
   text-align: center;
-  background-color: #5dd0ba;
+  width: 100%;
+  height: 100vh;
 }
 
 a {
@@ -50,7 +58,6 @@ a:visited {
 }
 
 .main {
-  display: block;
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -231,5 +238,12 @@ a:visited {
 }
 
 .modalButton {
-  margin-top: 50vh;
+  padding-top: 50vh;
+}
+
+input[type=submit]:active,
+input[type=submit]:hover,
+input[type=submit]:link,
+input[type=submit]:visited {
+  border: 0;
 }
